@@ -60,6 +60,14 @@
             color: #1e293b;
         }
 
+        a:link {
+            color: blue;
+        }
+
+        a:hover {
+            color: darkblue;
+        }
+
         .projects {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -67,7 +75,7 @@
         }
 
         .project-card {
-            background: white;
+            background: lightblue;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
